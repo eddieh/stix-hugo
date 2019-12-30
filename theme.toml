@@ -1,14 +1,14 @@
-name = "Lanyon"
+name = "stix"
 license = "MIT"
-licenselink = "https://github.com/tummychow/lanyon-hugo/blob/master/LICENSE.md"
-description = "Lanyon-Hugo is a theme designed for blogging."
-homepage = "https://github.com/tummychow/lanyon-hugo"
+licenselink = "https://github.com/eddieh/stix-hugo/blob/master/LICENSE.md"
+description = "STIX-Hugo is a theme for scientific & technical blogging."
+homepage = "https://github.com/eddieh/stix-hugo"
 tags = ["blog",]
 features = ["blog", ]
 min_version = 0.14
 
 [author]
-    name = "tummychow"
+    name = "eddieh"
 
 [original]
     author =  "mdo"
