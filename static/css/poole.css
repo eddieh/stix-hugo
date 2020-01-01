@@ -60,7 +60,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #fff;
+  background-color: #f7f7f7;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -155,8 +155,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: #676767;
+  background-color: #ececec;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +170,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #e8e8e8;
 }
 pre code {
   padding: 0;
