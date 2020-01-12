@@ -559,3 +559,14 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+/* Message customization */
+.message.warning {
+    background-color: #fffaf3;
+    color: #573a08;
+    -webkit-box-shadow: 0 0 0 1px #c9ba9b inset,0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px #c9ba9b inset,0 0 0 0 transparent;
+    border-radius: .32rem;
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+}
