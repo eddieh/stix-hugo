@@ -1,9 +1,15 @@
+{{ define "header" }}
 {{ partial "default_head.html" . }}
+{{ end }}
 
+{{ define "main" }}
 <div class="post">
   <h1 class="post-title">{{ .Title }}</h1>
   <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
   {{ .Content }}
 </div>
+{{ end }}
 
+{{ define "footer" }}
 {{ partial "default_foot.html" . }}
+{{ end }}

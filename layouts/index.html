@@ -1,5 +1,8 @@
+{{ define "header" }}
 {{ partial "default_head.html" . }}
+{{ end }}
 
+{{ define "main" }}
 <!-- Space delimited list of page types -->
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 
@@ -26,5 +29,8 @@
   <span class="pagination-item newer">Newer</span>
   {{ end }}
 </div>
+{{ end }}
 
+{{ define "footer" }}
 {{ partial "default_foot.html" . }}
+{{ end }}

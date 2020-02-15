@@ -1,5 +1,8 @@
+{{ define "header" }}
 {{ partial "default_head.html" . }}
+{{ end }}
 
+{{ define "main" }}
 <div class="post">
   <h1 class="post-title">{{ .Title }}</h1>
   <ul id="list">
@@ -10,5 +13,8 @@
     {{ end }}
   </ul>
 </div>
+{{ end }}
 
+{{ define "footer" }}
 {{ partial "default_foot.html" . }}
+{{ end }}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{ block "head" . }}{{ partial "head.html" . }}{{ end }}
+<body>
+  {{ block "sidebar" . }}{{ partial "sidebar.html" . }}{{ end }}
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap
+       the content to avoid any CSS collisions with our real content. -->
+  <div class="wrap">
+    {{ block "header" . }}{{ end }}
+    <div class="container content">
+      {{ block "main" . }}{{ end }}
+    </div>
+    {{ block "footer" . }}{{ end }}
+  </div>
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+</body>
+</html>
