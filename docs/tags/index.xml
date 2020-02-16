@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on STIX Theme</title>
+    <link>https://eddieh.github.io/stix-hugo/tags/</link>
+    <description>Recent content in Tags on STIX Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate>
+    
+	<atom:link href="https://eddieh.github.io/stix-hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>css</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/css/</link>
+      <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/html/</link>
+      <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/org/</link>
+      <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/themes/</link>
+      <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KaTeX</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/katex/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/katex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/latex/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/math/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/tags/emoji/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
