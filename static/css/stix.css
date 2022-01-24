@@ -263,19 +263,28 @@ tbody tr:nth-child(odd) th {
     }
 }
 
-.posts .post-title { margin-bottom: 0 }
-.posts .post-date {
-    font-size: .85rem;
+.post-header { margin-bottom: 3.5rem; }
+.post-title {
+    margin-bottom: 0;
+    font-size: 2.75rem;
 }
-.post-date {
-    color: #9a9a9a;
+.post-subtitle {
+    margin-top: .25rem;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #8080a0;
 }
-.post-header {
-    margin-bottom: 3.5rem;
-}
+.post-metadata { margin-top: 1.75rem; }
+.post-date { color: #9a9a9a; }
+
+.posts .post-title { font-size: 1.5rem }
+.posts .post-date { font-size: .85rem; }
+
 .page-type {
     display: none;
 }
+
 .lastmod {
     font-size: .85rem;
     font-style: italic;
@@ -300,4 +309,14 @@ footer {
 
 .signature {
     text-align: center;
+}
+
+.width-100p { width: 100% }
+.width-75p { width: 75% }
+.width-50p { width: 50% }
+.width-25p { width: 25% }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
