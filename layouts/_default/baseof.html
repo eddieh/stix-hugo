@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
 {{ block "head" . }}{{ partial "head.html" . }}{{ end }}
+</head>
 <body>
-  {{ block "sidebar" . }}{{ partial "sidebar.html" . }}{{ end }}
-  <!-- Wrap is the content to shift when toggling the sidebar. We wrap
-       the content to avoid any CSS collisions with our real content. -->
   <div class="wrap">
-    {{ block "header" . }}{{ end }}
-    <div class="container content">
+    {{ block "header" . }}{{ partial "default_head.html" . }}{{ end }}
+    <main class="container content">
       {{ block "main" . }}{{ end }}
-    </div>
-    {{ block "footer" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partial "default_foot.html" . }}{{ end }}
   </div>
-  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 </body>
 </html>

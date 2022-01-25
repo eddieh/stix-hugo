@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+{{ $tmp := .Resources.GetMatch "metadata.toml" }}
+{{ if $tmp }}
+  {{ $metadata := $tmp.Content | unmarshal }}
+{{ end }}
+
+{{ if eq hugo.Environment "development" }}
+<pre>
+  {{ print . }}
+  {{ print .Resources }}
+</pre>
+
+<script>
+  P = JSON.parse({{ jsonify . }})
+  S = JSON.parse({{ jsonify .Site }})
+  H = JSON.parse({{ jsonify hugo }})
+</script>
+{{ end }}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <h2 class="post-subtitle">{{ . }}</h2>
+    {{ end }}
+    <div class="post-metadata">
+      <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
+    </div>
+  </header>
+  {{ .Content }}
+</div>
+{{ end }}

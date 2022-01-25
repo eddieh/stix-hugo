@@ -1,15 +1,9 @@
-{{ define "header" }}
-{{ partial "default_head.html" . }}
-{{ end }}
-
 {{ define "main" }}
 <div class="post">
+  <header class="post-header">
   <h1 class="post-title">{{ .Title }}</h1>
-  <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
+  </header>
   {{ .Content }}
+  <p class="lastmod">Last modified: {{ .Lastmod }}</p>
 </div>
-{{ end }}
-
-{{ define "footer" }}
-{{ partial "default_foot.html" . }}
 {{ end }}
