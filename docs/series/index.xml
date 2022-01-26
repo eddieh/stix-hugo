@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate>
-    
-	<atom:link href="https://eddieh.github.io/stix-hugo/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#34;Themes</title>
       <link>https://eddieh.github.io/stix-hugo/series/themes/</link>
@@ -22,11 +18,11 @@
     </item>
     
     <item>
-      <title>Guid&#34;</title>
-      <link>https://eddieh.github.io/stix-hugo/series/guid/</link>
+      <title>Guide&#34;</title>
+      <link>https://eddieh.github.io/stix-hugo/series/guide/</link>
       <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
       
-      <guid>https://eddieh.github.io/stix-hugo/series/guid/</guid>
+      <guid>https://eddieh.github.io/stix-hugo/series/guide/</guid>
       <description></description>
     </item>
     
