@@ -1,32 +1,30 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<title>{{ block "title" . }}
-  {{ if .IsHome }}
-    {{ .Site.Title }}
-  {{ else }}
-    {{ .Title }} &middot; {{ .Site.Title }}
-  {{ end }}
-{{ end }}</title>
+<title>{{- block "title" . }}
+  {{- if .IsHome }}
+    {{- .Site.Title }}
+  {{- else }}
+    {{- .Title }} &middot; {{ .Site.Title }}
+  {{- end }}
+{{- end }}</title>
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/syntax.css">
-<link rel="stylesheet" href="/css/stix.css">
+<link rel="stylesheet" href={{ "css/syntax.css" | relURL }}>
+<link rel="stylesheet" href={{ "css/stix.css" | relURL }}>
 
 <!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/assets/favicon.ico">
-
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href={{ "apple-touch-icon-144-precomposed.png" | relURL }}>
+<link rel="shortcut icon" href={{ "favicon.ico" | relURL }}>
 
 <!-- Social -->
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
 <!-- Google Analytics -->
-{{ if eq hugo.Environment "production" }}
-  {{ if ne .Site.GoogleAnalytics "" }}
-    {{ template "_internal/google_analytics_async.html" . }}
-  {{ end}}
-{{ end }}
+{{- if eq hugo.Environment "production" }}
+  {{- if ne .Site.GoogleAnalytics "" }}
+    {{- template "_internal/google_analytics_async.html" . }}
+  {{- end}}
+{{- end }}

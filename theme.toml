@@ -1,16 +1,18 @@
 name = "stix"
-license = "MIT"
-licenselink = "https://github.com/eddieh/stix-hugo/blob/master/LICENSE.md"
 description = "STIX-Hugo is a theme for scientific & technical blogging."
 homepage = "https://github.com/eddieh/stix-hugo"
+
+license = "MIT"
+licenselink = "https://github.com/eddieh/stix-hugo/blob/master/LICENSE.md"
+
 tags = ["blog",]
 features = ["blog", ]
 min_version = 0.14
 
 [author]
-    name = "eddieh"
+name = "eddieh"
 
 [original]
-    author =  "mdo"
-    homepage = "https://github.com/poole/lanyon"
-    repo = "https://github.com/poole/lanyon"
+author = "mdo"
+homepage = "https://github.com/poole/lanyon"
+repo = "https://github.com/poole/lanyon"
