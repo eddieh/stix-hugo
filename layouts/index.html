@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ .Content }}
+
 <!-- Space delimited list of page types -->
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 

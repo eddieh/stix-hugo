@@ -5,7 +5,7 @@
     <language>en-us</language>
     <author></author>
     <rights>(C) 2020</rights>
-    <updated>2020-01-01 07:51:20 -0800 PST</updated>
+    <updated>2022-01-26 12:32:32 -0800 PST</updated>
 
     
       <item>
@@ -129,8 +129,7 @@ Tables
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-tables&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;
-Tables aren&amp;#39;t part of the core Org spec, but Hugo supports supports
-them out-of-the-box.&lt;/p&gt;
+Beautiful book like tables.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
