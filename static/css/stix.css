@@ -35,6 +35,14 @@
  * - https://github.com/poole/lanyon
  */
 
+:root {
+    --heading-fonts: Helvetica, Arial, sans-serif;
+    --body-fonts: STIXTwoText, STIXGeneral, "Times New Roman", serif;
+    --body-italic-fonts: STIXTwoText-Italic, STIXGeneral-Italic, "Times New Roman Italic", serif;
+    --mono-fonts: DejaVuSansMono, "DejaVu Sans Mono", Menlo, "Lucida Console", Monaco, monospace;
+}
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -48,11 +56,11 @@ body {
 }
 
 html {
-    font-family: STIXGeneral, "Times New Roman", serif;
+    font-family: var(--body-fonts);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: var(--heading-fonts);
     font-weight: normal;
     color: #313131;
 }
@@ -65,6 +73,9 @@ body {
     -ms-text-size-adjust: 100%;
 }
 
+em {
+    font-family: var(--body-italic-fonts);
+}
 
 a {
     color: #268bd2;
@@ -90,7 +101,9 @@ dd {
   margin-bottom: .5rem;
 }
 
-sub, sup { font-size: .75rem; }
+sub, sup { font-size: .9rem; }
+sub { font-variant-position: sub; }
+sup { font-variant-position: sup; }
 
 hr {
   position: relative;
@@ -112,7 +125,7 @@ abbr[title] {
 }
 
 code, pre, kbd {
-    font-family: "DejaVu Sans Mono", Menlo, Monaco, monospace;
+    font-family: var(--mono-fonts);
     font-size: .9rem;
     color: #3c3c3c;
     background-color: #dedeed;
@@ -151,6 +164,7 @@ kbd {
     padding: .25em .5em;
     white-space: nowrap;
 }
+
 pre code {
     padding: 0;
     color: inherit;
