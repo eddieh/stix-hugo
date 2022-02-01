@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'STIXTwoText-Italic';
+    font-family: 'STIXTwoText';
     src: url('../fonts/STIXTwoText-Italic[wght].woff2') format('woff2-variations');
     font-weight: 400 700;
     font-stretch: 75% 125%;

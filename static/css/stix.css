@@ -38,7 +38,6 @@
 :root {
     --heading-fonts: Helvetica, Arial, sans-serif;
     --body-fonts: STIXTwoText, STIXGeneral, "Times New Roman", serif;
-    --body-italic-fonts: STIXTwoText-Italic, STIXGeneral-Italic, "Times New Roman Italic", serif;
     --mono-fonts: DejaVuSansMono, "DejaVu Sans Mono", Menlo, "Lucida Console", Monaco, monospace;
 }
 
@@ -82,10 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-fonts);
     font-weight: normal;
     color: #313131;
-}
-
-em {
-    font-family: var(--body-italic-fonts);
 }
 
 a {
