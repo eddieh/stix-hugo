@@ -7,6 +7,7 @@
 <title>Org-mode Syntax Guide &middot; STIX Theme</title>
 
 
+<link rel="stylesheet" href=/stix-hugo/css/fonts.css>
 <link rel="stylesheet" href=/stix-hugo/css/syntax.css>
 <link rel="stylesheet" href=/stix-hugo/css/stix.css>
 
@@ -37,9 +38,10 @@
 
 </head>
 <body>
-  <div class="wrap">
-    <header class="masthead">
-  <div class="container">
+<div class="page">
+  <div class="page-width">
+    <header class="masthead container">
+  
     <h1 class="masthead-title">
       <a href=/stix-hugo/ title="Home">STIX Theme</a>
     </h1>
@@ -50,10 +52,10 @@
       <a href=/stix-hugo/about>About</a>
       ]
     </nav>
-  </div>
+  
 </header>
 
-    <main class="container content">
+    <main class="container">
       
 
 
@@ -235,42 +237,143 @@ Inline Org within tables
 Code Blocks
 </h3>
 <div id="outline-text-code-blocks" class="outline-text-3">
-<div id="outline-container-code-block-with-backticks" class="outline-5">
-<h5 id="code-block-with-backticks">
-Code block with backticks
+<div id="outline-container-source-block-displaying-html" class="outline-5">
+<h5 id="source-block-displaying-html">
+Source block displaying HTML
 </h5>
-<div id="outline-text-code-block-with-backticks" class="outline-text-5">
+<div id="outline-text-source-block-displaying-html" class="outline-text-5">
 <div class="src src-html">
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  <span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-  &lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-  &lt;<span style="color:#f92672">head</span>&gt;
-    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
-    &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-  &lt;/<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">body</span>&gt;
-    &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-  &lt;/<span style="color:#f92672">body</span>&gt;
-  &lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
 </div>
 </div>
 </div>
-<div id="outline-container-code-block-indented-with-four-spaces" class="outline-5">
-<h5 id="code-block-indented-with-four-spaces">
-Code block indented with four spaces
+<div id="outline-container-source-block-displaying-elisp" class="outline-5">
+<h5 id="source-block-displaying-elisp">
+Source block displaying Elisp
 </h5>
-<div id="outline-text-code-block-indented-with-four-spaces" class="outline-text-5">
-<div class="src src-text">
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">  &lt;!DOCTYPE html&gt;
-  &lt;html lang=&#34;en&#34;&gt;
-  &lt;head&gt;
-    &lt;meta charset=&#34;UTF-8&#34;&gt;
-    &lt;title&gt;Example HTML5 Document&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;Test&lt;/p&gt;
-  &lt;/body&gt;
-  &lt;/html&gt;</code></pre></div>
+<div id="outline-text-source-block-displaying-elisp" class="outline-text-5">
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">mccarthy91</span> <span class="p">(</span><span class="nv">n</span><span class="p">)</span>
+   <span class="s">&#34;McCarthy 91 is used as a formal verification test case.&#34;</span>
+   <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">&lt;=</span> <span class="nv">n</span> <span class="mi">100</span><span class="p">)</span>
+       <span class="p">(</span><span class="nv">mccarthy91</span> <span class="p">(</span><span class="nv">mccarthy91</span> <span class="p">(</span><span class="nf">+</span> <span class="nv">n</span> <span class="mi">11</span><span class="p">)))</span>
+     <span class="p">(</span><span class="nf">-</span> <span class="nv">n</span> <span class="mi">10</span><span class="p">)))</span></code></pre></div>
 </div>
+</div>
+</div>
+<div id="outline-container-headline-17" class="outline-5">
+<h5 id="headline-17">
+Source block with C from NetBSD
+</h5>
+<div id="outline-text-headline-17" class="outline-text-5">
+<div class="src src-c">
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#define	KSTACK_MAGIC	0xdeadbeaf
+</span><span class="cp"></span>
+<span class="cm">/* XXX should be per process basis? */</span>
+<span class="k">static</span> <span class="kt">int</span>	<span class="n">kstackleftmin</span> <span class="o">=</span> <span class="n">KSTACK_SIZE</span><span class="p">;</span>
+<span class="k">static</span> <span class="kt">int</span>	<span class="n">kstackleftthres</span> <span class="o">=</span> <span class="n">KSTACK_SIZE</span> <span class="o">/</span> <span class="mi">8</span><span class="p">;</span>
+
+<span class="kt">void</span>
+<span class="nf">kstack_setup_magic</span><span class="p">(</span><span class="k">const</span> <span class="k">struct</span> <span class="n">lwp</span> <span class="o">*</span><span class="n">l</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="n">uint32_t</span> <span class="o">*</span><span class="n">ip</span><span class="p">;</span>
+	<span class="n">uint32_t</span> <span class="k">const</span> <span class="o">*</span><span class="n">end</span><span class="p">;</span>
+
+	<span class="n">KASSERT</span><span class="p">(</span><span class="n">l</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">);</span>
+	<span class="n">KASSERT</span><span class="p">(</span><span class="n">l</span> <span class="o">!=</span> <span class="o">&amp;</span><span class="n">lwp0</span><span class="p">);</span>
+
+	<span class="cm">/*
+</span><span class="cm">	 * fill all the stack with magic number
+</span><span class="cm">	 * so that later modification on it can be detected.
+</span><span class="cm">	 */</span>
+	<span class="n">ip</span> <span class="o">=</span> <span class="p">(</span><span class="n">uint32_t</span> <span class="o">*</span><span class="p">)</span><span class="n">KSTACK_LOWEST_ADDR</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+	<span class="n">end</span> <span class="o">=</span> <span class="p">(</span><span class="n">uint32_t</span> <span class="o">*</span><span class="p">)((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">KSTACK_LOWEST_ADDR</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="o">+</span> <span class="n">KSTACK_SIZE</span><span class="p">);</span>
+	<span class="k">for</span> <span class="p">(;</span> <span class="n">ip</span> <span class="o">&lt;</span> <span class="n">end</span><span class="p">;</span> <span class="n">ip</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="o">*</span><span class="n">ip</span> <span class="o">=</span> <span class="n">KSTACK_MAGIC</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-18" class="outline-5">
+<h5 id="headline-18">
+More C from NetBSD
+</h5>
+<div id="outline-text-headline-18" class="outline-text-5">
+<div class="src src-c">
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/*
+</span><span class="cm"> * kthread_fpu_enter()
+</span><span class="cm"> *
+</span><span class="cm"> *	Allow the current lwp, which must be a kthread, to use the FPU.
+</span><span class="cm"> *	Return a cookie that must be passed to kthread_fpu_exit when
+</span><span class="cm"> *	done.  Must be used only in thread context.  Recursive -- you
+</span><span class="cm"> *	can call kthread_fpu_enter several times in a row as long as
+</span><span class="cm"> *	you pass the cookies in reverse order to kthread_fpu_exit.
+</span><span class="cm"> */</span>
+<span class="kt">int</span>
+<span class="nf">kthread_fpu_enter</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="k">struct</span> <span class="n">lwp</span> <span class="o">*</span><span class="n">l</span> <span class="o">=</span> <span class="n">curlwp</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">s</span><span class="p">;</span>
+
+	<span class="n">KASSERTMSG</span><span class="p">(</span><span class="o">!</span><span class="n">cpu_intr_p</span><span class="p">(),</span>
+	    <span class="s">&#34;%s is not allowed in interrupt context&#34;</span><span class="p">,</span> <span class="n">__func__</span><span class="p">);</span>
+	<span class="n">KASSERTMSG</span><span class="p">(</span><span class="o">!</span><span class="n">cpu_softintr_p</span><span class="p">(),</span>
+	    <span class="s">&#34;%s is not allowed in interrupt context&#34;</span><span class="p">,</span> <span class="n">__func__</span><span class="p">);</span>
+
+	<span class="cm">/*
+</span><span class="cm">	 * Remember whether this thread already had FPU access, and
+</span><span class="cm">	 * mark this thread as having FPU access.
+</span><span class="cm">	 */</span>
+	<span class="n">lwp_lock</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+	<span class="n">KASSERTMSG</span><span class="p">(</span><span class="n">l</span><span class="o">-&gt;</span><span class="n">l_flag</span> <span class="o">&amp;</span> <span class="n">LW_SYSTEM</span><span class="p">,</span>
+	    <span class="s">&#34;%s is allowed only in kthreads&#34;</span><span class="p">,</span> <span class="n">__func__</span><span class="p">);</span>
+	<span class="n">s</span> <span class="o">=</span> <span class="n">l</span><span class="o">-&gt;</span><span class="n">l_flag</span> <span class="o">&amp;</span> <span class="n">LW_SYSTEM_FPU</span><span class="p">;</span>
+	<span class="n">l</span><span class="o">-&gt;</span><span class="n">l_flag</span> <span class="o">|=</span> <span class="n">LW_SYSTEM_FPU</span><span class="p">;</span>
+	<span class="n">lwp_unlock</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+
+	<span class="cm">/* Take MD steps to enable the FPU if necessary.  */</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">s</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+		<span class="n">kthread_fpu_enter_md</span><span class="p">();</span>
+
+	<span class="k">return</span> <span class="n">s</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-19" class="outline-3">
+<h3 id="headline-19">
+Other blocks
+</h3>
+<div id="outline-text-headline-19" class="outline-text-3">
+<div id="outline-container-example-block" class="outline-5">
+<h5 id="example-block">
+Example block
+</h5>
+<div id="outline-text-example-block" class="outline-text-5">
+<pre class="example">
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 </div>
 </div>
 <div id="outline-container-code-block-with-hugos-internal-highlight-shortcode" class="outline-5">
@@ -279,16 +382,16 @@ Code block with Hugo&#39;s internal highlight shortcode
 </h5>
 <div id="outline-text-code-block-with-hugos-internal-highlight-shortcode" class="outline-text-5">
 <p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
-  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div></p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div></p>
 </div>
 </div>
 </div>
@@ -414,11 +517,12 @@ small creatures.</p>
 </div>
 
     </main>
-    <footer>
+    <footer class="container">
   <p class="copyright">&copy; 2020. All rights reserved.</p>
   <p class="signature"></p>
 </footer>
 
   </div>
+</div>
 </body>
 </html>

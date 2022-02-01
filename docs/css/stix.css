@@ -23,7 +23,7 @@
  * ===================
  *
  * Scientific and Technical Information Exchange (STIX) theme for
-   Hugo.
+ * Hugo.
  *
  * MIT license by @haltingproblems
  * https://github.com/eddieh/stix-hugo
@@ -34,6 +34,12 @@
  * - https://github.com/poole/poole
  * - https://github.com/poole/lanyon
  */
+
+:root {
+    --heading-fonts: Helvetica, Arial, sans-serif;
+    --body-fonts: STIXTwoText, STIXGeneral, "Times New Roman", serif;
+    --mono-fonts: DejaVuSansMono, "DejaVu Sans Mono", Menlo, "Lucida Console", Monaco, monospace;
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -47,24 +53,35 @@ body {
     padding: 0;
 }
 
-html {
-    font-family: STIXGeneral, "Times New Roman", serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    color: #313131;
-}
-
 body {
+    font-family: var(--body-fonts);
     font-size: 120%;
     color: #313131;
     background-color: #f7f7f7;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    /* -webkit-text-size-adjust: 100%; */
+    /* -ms-text-size-adjust: 100%; */
+    /* text-size-adjust: 100%; */
 }
 
+.page {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: relative;
+    font-family: var(--body-fonts);
+    font-size: 120%;
+    letter-spacing: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-fonts);
+    font-weight: normal;
+    color: #313131;
+}
 
 a {
     color: #268bd2;
@@ -90,7 +107,8 @@ dd {
   margin-bottom: .5rem;
 }
 
-sub, sup { font-size: .75rem; }
+sub { font-variant-position: sub; }
+sup { font-variant-position: sup; }
 
 hr {
   position: relative;
@@ -112,27 +130,33 @@ abbr[title] {
 }
 
 code, pre, kbd {
-    font-family: "DejaVu Sans Mono", Menlo, Monaco, monospace;
-    font-size: .9rem;
+    font-family: var(--mono-fonts);
+    text-rendering: optimizeLegibility;
     color: #3c3c3c;
     background-color: #dedeed;
 }
+
 code {
-    padding: .25em .5em;
+    padding: 0 .25em;
     border-radius: 3px;
 }
+
 pre {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding: .25em .5em;
-    line-height: 1.4;
-    white-space: pre;
-    white-space: pre-wrap;
-    word-break: break-all;
-    word-wrap: break-word;
-    border-radius: 6px;
+    overflow-x: scroll;
+    background-color: #dedeed;
+    padding: 16px 0;            /* enough padding for the horizontal scrollbar */
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%);
+    clear: both;
 }
+
+pre code {
+    display: block;
+    padding: 0 16px;            /* enough padding for the vertical scrollbar */
+}
+
 /* kbd style base on
  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
  */
@@ -151,13 +175,19 @@ kbd {
     padding: .25em .5em;
     white-space: nowrap;
 }
-pre code {
-    padding: 0;
-    color: inherit;
-    background-color: transparent;
+
+pre.example {
+    font-size: 1rem;
+    overflow-x: auto;
+    background-color: #ededed;
+    padding: .5rem;
+    position: initial;
+    width: initial;
+    left: initial;
+    transform: none;
+    clear: none;
 }
 
-/* Quotes */
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
@@ -166,12 +196,6 @@ blockquote {
 }
 blockquote p:last-child {
   margin: 0;
-}
-@media (min-width: 30em) {
-  blockquote {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
-  }
 }
 
 img {
@@ -239,31 +263,6 @@ caption, figcaption {
     margin-bottom: 3rem;
 }
 
-
-.wrap {
-    position: relative;
-    width: 100%;
-}
-
-.container {
-    max-width: 28rem;
-    padding-left:  1rem;
-    padding-right: 1rem;
-    margin-left:  auto;
-    margin-right: auto;
-}
-
-@media (min-width: 38em) {
-    .container {
-        max-width: 32rem;
-    }
-}
-@media (min-width: 56em) {
-    .container {
-        max-width: 38rem;
-    }
-}
-
 .masthead {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -290,14 +289,6 @@ caption, figcaption {
     display: block;
     float: right;
     height: auto;
-}
-@media (max-width: 48em) {
-    .masthead-title {
-        text-align: center;
-    }
-    .masthead-title small {
-        display: none;
-    }
 }
 
 .post-header { margin-bottom: 3.5rem; }
@@ -367,4 +358,50 @@ aside > p, .aside-block > p { margin: 0; }
 .center {
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 320px) {
+    pre code {
+        font-size: 9px;
+        letter-spacing: -.5px;
+    }
+}
+
+@media (min-width: 375px) {
+    pre code {
+        font-size: 9px;
+        letter-spacing: -.25px;
+    }
+}
+
+@media (min-width: 414px) {
+    pre code {
+        font-size: 9px;
+        letter-spacing: -.25px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 800px) {
+    pre code {
+        font-size: calc(100vw / 48);
+        letter-spacing: -.25px;
+    }
+}
+
+@media (min-width: 800px) {
+    /* ATTN: this must be set to the same font used to display code at the
+       maximum size */
+    .page-width {
+        font-family: var(--mono-fonts);
+        font-size: 17px;
+        letter-spacing: normal;
+        max-width: calc(80ch + 2 * 16px);
+        margin: 0 auto;
+    }
+    pre code {
+        font-size: 17px;
+        letter-spacing: normal;
+        max-width: calc(80ch + 2 * 16px);
+        margin: 0 auto;
+    }
 }
