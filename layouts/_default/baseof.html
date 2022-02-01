@@ -4,12 +4,14 @@
 {{ block "head" . }}{{ partial "head.html" . }}{{ end }}
 </head>
 <body>
-  <div class="wrap">
+<div class="page">
+  <div class="page-width">
     {{ block "header" . }}{{ partial "default_head.html" . }}{{ end }}
-    <main class="container content">
+    <main class="container">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partial "default_foot.html" . }}{{ end }}
   </div>
+</div>
 </body>
 </html>
