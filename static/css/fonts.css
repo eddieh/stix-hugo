@@ -33,3 +33,12 @@
     font-stretch: 50% 125%;
     font-style: bold;
 }
+
+
+@font-face {
+    font-family: 'DejaVuSansMono';
+    src: url('../fonts/DejaVuSansMono-Oblique.woff2') format('woff2');
+    font-weight: 700;
+    font-stretch: 50% 125%;
+    font-style: italic;
+}
