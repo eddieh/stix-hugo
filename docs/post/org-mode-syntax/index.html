@@ -243,7 +243,7 @@ Source block displaying HTML
 </h5>
 <div id="outline-text-source-block-displaying-html" class="outline-text-5">
 <div class="src src-html">
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
@@ -262,7 +262,7 @@ Source block displaying Elisp
 </h5>
 <div id="outline-text-source-block-displaying-elisp" class="outline-text-5">
 <div class="src src-emacs-lisp">
-<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">mccarthy91</span> <span class="p">(</span><span class="nv">n</span><span class="p">)</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">mccarthy91</span> <span class="p">(</span><span class="nv">n</span><span class="p">)</span>
    <span class="s">&#34;McCarthy 91 is used as a formal verification test case.&#34;</span>
    <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">&lt;=</span> <span class="nv">n</span> <span class="mi">100</span><span class="p">)</span>
        <span class="p">(</span><span class="nv">mccarthy91</span> <span class="p">(</span><span class="nv">mccarthy91</span> <span class="p">(</span><span class="nf">+</span> <span class="nv">n</span> <span class="mi">11</span><span class="p">)))</span>
@@ -276,7 +276,7 @@ Source block with C from NetBSD
 </h5>
 <div id="outline-text-headline-17" class="outline-text-5">
 <div class="src src-c">
-<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#define	KSTACK_MAGIC	0xdeadbeaf
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="cp">#define	KSTACK_MAGIC	0xdeadbeaf
 </span><span class="cp"></span>
 <span class="cm">/* XXX should be per process basis? */</span>
 <span class="k">static</span> <span class="kt">int</span>	<span class="n">kstackleftmin</span> <span class="o">=</span> <span class="n">KSTACK_SIZE</span><span class="p">;</span>
@@ -285,8 +285,8 @@ Source block with C from NetBSD
 <span class="kt">void</span>
 <span class="nf">kstack_setup_magic</span><span class="p">(</span><span class="k">const</span> <span class="k">struct</span> <span class="n">lwp</span> <span class="o">*</span><span class="n">l</span><span class="p">)</span>
 <span class="p">{</span>
-	<span class="n">uint32_t</span> <span class="o">*</span><span class="n">ip</span><span class="p">;</span>
-	<span class="n">uint32_t</span> <span class="k">const</span> <span class="o">*</span><span class="n">end</span><span class="p">;</span>
+	<span class="kt">uint32_t</span> <span class="o">*</span><span class="n">ip</span><span class="p">;</span>
+	<span class="kt">uint32_t</span> <span class="k">const</span> <span class="o">*</span><span class="n">end</span><span class="p">;</span>
 
 	<span class="n">KASSERT</span><span class="p">(</span><span class="n">l</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">);</span>
 	<span class="n">KASSERT</span><span class="p">(</span><span class="n">l</span> <span class="o">!=</span> <span class="o">&amp;</span><span class="n">lwp0</span><span class="p">);</span>
@@ -295,8 +295,8 @@ Source block with C from NetBSD
 </span><span class="cm">	 * fill all the stack with magic number
 </span><span class="cm">	 * so that later modification on it can be detected.
 </span><span class="cm">	 */</span>
-	<span class="n">ip</span> <span class="o">=</span> <span class="p">(</span><span class="n">uint32_t</span> <span class="o">*</span><span class="p">)</span><span class="n">KSTACK_LOWEST_ADDR</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
-	<span class="n">end</span> <span class="o">=</span> <span class="p">(</span><span class="n">uint32_t</span> <span class="o">*</span><span class="p">)((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">KSTACK_LOWEST_ADDR</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="o">+</span> <span class="n">KSTACK_SIZE</span><span class="p">);</span>
+	<span class="n">ip</span> <span class="o">=</span> <span class="p">(</span><span class="kt">uint32_t</span> <span class="o">*</span><span class="p">)</span><span class="n">KSTACK_LOWEST_ADDR</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+	<span class="n">end</span> <span class="o">=</span> <span class="p">(</span><span class="kt">uint32_t</span> <span class="o">*</span><span class="p">)((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">KSTACK_LOWEST_ADDR</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="o">+</span> <span class="n">KSTACK_SIZE</span><span class="p">);</span>
 	<span class="k">for</span> <span class="p">(;</span> <span class="n">ip</span> <span class="o">&lt;</span> <span class="n">end</span><span class="p">;</span> <span class="n">ip</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
 		<span class="o">*</span><span class="n">ip</span> <span class="o">=</span> <span class="n">KSTACK_MAGIC</span><span class="p">;</span>
 	<span class="p">}</span>
@@ -310,7 +310,7 @@ More C from NetBSD
 </h5>
 <div id="outline-text-headline-18" class="outline-text-5">
 <div class="src src-c">
-<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/*
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="cm">/*
 </span><span class="cm"> * kthread_fpu_enter()
 </span><span class="cm"> *
 </span><span class="cm"> *	Allow the current lwp, which must be a kthread, to use the FPU.
@@ -382,7 +382,7 @@ Code block with Hugo&#39;s internal highlight shortcode
 </h5>
 <div id="outline-text-code-block-with-hugos-internal-highlight-shortcode" class="outline-text-5">
 <p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
@@ -407,15 +407,9 @@ Ordered List
 </h5>
 <div id="outline-text-ordered-list" class="outline-text-5">
 <ol>
-<li>
-<p>First item</p>
-</li>
-<li>
-<p>Second item</p>
-</li>
-<li>
-<p>Third item</p>
-</li>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
 </ol>
 </div>
 </div>
@@ -425,15 +419,9 @@ Unordered List
 </h5>
 <div id="outline-text-unordered-list" class="outline-text-5">
 <ul>
-<li>
-<p>List item</p>
-</li>
-<li>
-<p>Another item</p>
-</li>
-<li>
-<p>And another item</p>
-</li>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
 </ul>
 </div>
 </div>
@@ -446,32 +434,20 @@ Nested list
 <li>
 <p>Item A</p>
 <ol>
-<li>
-<p>First Sub-item</p>
-</li>
-<li>
-<p>Second Sub-item</p>
-</li>
+<li>First Sub-item</li>
+<li>Second Sub-item</li>
 </ol>
 </li>
 <li>
 <p>Item B</p>
 <ol>
-<li>
-<p>Sub-item one</p>
-</li>
+<li>Sub-item one</li>
 <li>
 <p>Sub-item two</p>
 <ul>
-<li>
-<p>Sub-sub-item A</p>
-</li>
-<li>
-<p>Sub-sub-item B</p>
-</li>
-<li>
-<p>Sub-sub-item C</p>
-</li>
+<li>Sub-sub-item A</li>
+<li>Sub-sub-item B</li>
+<li>Sub-sub-item C</li>
 </ul>
 </li>
 </ol>
@@ -518,7 +494,7 @@ small creatures.</p>
 
     </main>
     <footer class="container">
-  <p class="copyright">&copy; 2020. All rights reserved.</p>
+  <p class="copyright">&copy; 2022. All rights reserved.</p>
   <p class="signature"></p>
 </footer>
 

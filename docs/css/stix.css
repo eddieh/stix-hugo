@@ -129,14 +129,14 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
-code, pre, kbd {
+code, pre, kbd, .pre-block {
     font-family: var(--mono-fonts);
     text-rendering: optimizeLegibility;
     color: #3c3c3c;
     background-color: #dedeed;
 }
 
-code {
+code, .pre-block {
     padding: 0 .25em;
     border-radius: 3px;
 }
@@ -241,8 +241,8 @@ caption, figcaption {
     margin-bottom: 0.3em;
 }
 
-.lead {
-  font-size: 1.25rem;
+.lead, .lead-block {
+  font-size: 1.75rem;
   font-weight: 300;
 }
 
@@ -359,6 +359,11 @@ aside > p, .aside-block > p { margin: 0; }
     margin-left: auto;
     margin-right: auto;
 }
+.text-center { text-align: center; }
+
+.font-size-base { font-size: 1rem; }
+.font-size-sm { font-size: .75rem; }
+.font-size-lg { font-size: 2rem; }
 
 @media (min-width: 320px) {
     pre code {

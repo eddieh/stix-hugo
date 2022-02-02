@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://eddieh.github.io/stix-hugo/post/fonts/</loc>
+    <lastmod>2022-01-27T08:26:20-08:00</lastmod>
+  </url><url>
+    <loc>https://eddieh.github.io/stix-hugo/post/</loc>
+    <lastmod>2022-01-27T08:26:20-08:00</lastmod>
+  </url><url>
     <loc>https://eddieh.github.io/stix-hugo/</loc>
     <lastmod>2022-01-26T12:32:32-08:00</lastmod>
   </url><url>
@@ -24,9 +30,6 @@
     <lastmod>2020-01-01T07:51:20-08:00</lastmod>
   </url><url>
     <loc>https://eddieh.github.io/stix-hugo/post/org-mode-syntax/</loc>
-    <lastmod>2020-01-01T07:51:20-08:00</lastmod>
-  </url><url>
-    <loc>https://eddieh.github.io/stix-hugo/post/</loc>
     <lastmod>2020-01-01T07:51:20-08:00</lastmod>
   </url><url>
     <loc>https://eddieh.github.io/stix-hugo/series/</loc>

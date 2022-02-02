@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 08:26:20 -0800</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fonts Showcase</title>
+      <link>https://eddieh.github.io/stix-hugo/post/fonts/</link>
+      <pubDate>Thu, 27 Jan 2022 08:26:20 -0800</pubDate>
+      
+      <guid>https://eddieh.github.io/stix-hugo/post/fonts/</guid>
+      <description>Body Fonts   Body text in STIX Fonts. The STIX &amp;#34;fonts are intended to satisfy the demanding needs of authors, publishers, printers, and others working in the scientific, medical, and technical fields.&amp;#34;
+Formatting   Want something bold use *bold*. Want something italic use /italic/. Want something underlined use _underlined_. Want something strikethrough use +strikethrough+. And lastly, want something monospaced use =monospaced= or ~monospaced~.
+  Subscripts and Superscripts   Text characters set below or above the line of type for a font/size combination are necessary for technical writing.</description>
+    </item>
+    
     <item>
       <title>Org-mode Syntax Guide</title>
       <link>https://eddieh.github.io/stix-hugo/post/org-mode-syntax/</link>
