@@ -15,6 +15,7 @@
   P = JSON.parse({{ jsonify . }})
   S = JSON.parse({{ jsonify .Site }})
   H = JSON.parse({{ jsonify hugo }})
+  M = JSON.parse({{ jsonify .Site.Menus }})
 </script>
 {{ end }}
 

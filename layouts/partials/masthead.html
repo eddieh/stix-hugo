@@ -1,14 +1,13 @@
 <header class="masthead container">
-  <!-- <div class="container"> -->
     <h1 class="masthead-title">
       <a href={{ "/" | relURL }} title="Home">{{ .Site.Title }}</a>
     </h1>
+    {{ $currentPage := . }}
     <nav class="nav">
       [
-      <a href={{ "/" | relURL }}>Home</a>
-      |
-      <a href={{ "about" | relURL }}>About</a>
+      {{ range .Site.Menus.main }}
+         {{ .Pre }} <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
       ]
     </nav>
-  <!-- </div> -->
 </header>

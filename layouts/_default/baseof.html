@@ -6,11 +6,11 @@
 <body>
 <div class="page">
   <div class="page-width">
-    {{ block "header" . }}{{ partial "default_head.html" . }}{{ end }}
+    {{ block "masthead" . }}{{ partial "masthead.html" . }}{{ end }}
     <main class="container">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ block "footer" . }}{{ partial "default_foot.html" . }}{{ end }}
+    {{ block "colophon" . }}{{ partial "colophon.html" . }}{{ end }}
   </div>
 </div>
 </body>
