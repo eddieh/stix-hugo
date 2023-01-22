@@ -8,6 +8,7 @@
 {{ if eq hugo.Environment "development" }}
 <pre class="example">
   {{ print . }}
+  draft? {{ .Draft }}
   {{ print .Resources }}
 </pre>
 
