@@ -5,7 +5,13 @@
     <loc>https://eddieh.github.io/stix-hugo/post/fonts/</loc>
     <lastmod>2022-01-27T08:26:20-08:00</lastmod>
   </url><url>
+    <loc>https://eddieh.github.io/stix-hugo/tags/index/</loc>
+    <lastmod>2022-01-27T08:26:20-08:00</lastmod>
+  </url><url>
     <loc>https://eddieh.github.io/stix-hugo/post/</loc>
+    <lastmod>2022-01-27T08:26:20-08:00</lastmod>
+  </url><url>
+    <loc>https://eddieh.github.io/stix-hugo/tags/</loc>
     <lastmod>2022-01-27T08:26:20-08:00</lastmod>
   </url><url>
     <loc>https://eddieh.github.io/stix-hugo/</loc>
@@ -38,13 +44,10 @@
     <loc>https://eddieh.github.io/stix-hugo/categories/syntax/</loc>
     <lastmod>2020-01-01T07:51:20-08:00</lastmod>
   </url><url>
-    <loc>https://eddieh.github.io/stix-hugo/tags/</loc>
+    <loc>https://eddieh.github.io/stix-hugo/categories/themes/</loc>
     <lastmod>2020-01-01T07:51:20-08:00</lastmod>
   </url><url>
     <loc>https://eddieh.github.io/stix-hugo/tags/themes/</loc>
-    <lastmod>2020-01-01T07:51:20-08:00</lastmod>
-  </url><url>
-    <loc>https://eddieh.github.io/stix-hugo/categories/themes/</loc>
     <lastmod>2020-01-01T07:51:20-08:00</lastmod>
   </url><url>
     <loc>https://eddieh.github.io/stix-hugo/tags/markdown/</loc>
@@ -91,7 +94,5 @@
   </url><url>
     <loc>https://eddieh.github.io/stix-hugo/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eddieh.github.io/stix-hugo/tags/index/</loc>
   </url>
 </urlset>

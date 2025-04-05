@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>text on STIX Theme</title>
+    <title>Text on STIX Theme</title>
     <link>https://eddieh.github.io/stix-hugo/tags/text/</link>
-    <description>Recent content in text on STIX Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Text on STIX Theme</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eddieh.github.io/stix-hugo/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder Text</title>
       <link>https://eddieh.github.io/stix-hugo/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&#xA;pectora summo.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>html on STIX Theme</title>
+    <title>Html on STIX Theme</title>
     <link>https://eddieh.github.io/stix-hugo/tags/html/</link>
-    <description>Recent content in html on STIX Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Html on STIX Theme</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate>
+    <atom:link href="https://eddieh.github.io/stix-hugo/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Org-mode Syntax Guide</title>
       <link>https://eddieh.github.io/stix-hugo/post/org-mode-syntax/</link>
       <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/post/org-mode-syntax/</guid>
-      <description>This article offers a sample of basic Org syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-Headings   The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-  H1  H2  H3  H4  H5  H6           Paragraph   Xerum, quo qui aut unt expliquam qui dolut labo.</description>
+      <description>&lt;p&gt;&#xA;This article offers a sample of basic Org syntax that can be used&#xA;in Hugo content files, also it shows whether basic HTML elements are&#xA;decorated with CSS in a Hugo theme.&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headings&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headings&#34;&gt;&#xA;Headings&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headings&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;The following HTML &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code class=&#34;verbatim&#34;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of&#xA;section headings. &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is&#xA;the lowest.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-h1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;h1&#34;&gt;&#xA;H1&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-h1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;div id=&#34;outline-container-h2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;h2&#34;&gt;&#xA;H2&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-h2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;div id=&#34;outline-container-h3&#34; class=&#34;outline-4&#34;&gt;&#xA;&lt;h4 id=&#34;h3&#34;&gt;&#xA;H3&#xA;&lt;/h4&gt;&#xA;&lt;div id=&#34;outline-text-h3&#34; class=&#34;outline-text-4&#34;&gt;&#xA;&lt;div id=&#34;outline-container-h4&#34; class=&#34;outline-5&#34;&gt;&#xA;&lt;h5 id=&#34;h4&#34;&gt;&#xA;H4&#xA;&lt;/h5&gt;&#xA;&lt;div id=&#34;outline-text-h4&#34; class=&#34;outline-text-5&#34;&gt;&#xA;&lt;div id=&#34;outline-container-h5&#34; class=&#34;outline-6&#34;&gt;&#xA;&lt;h6 id=&#34;h5&#34;&gt;&#xA;H5&#xA;&lt;/h6&gt;&#xA;&lt;div id=&#34;outline-text-h5&#34; class=&#34;outline-text-6&#34;&gt;&#xA;&lt;div id=&#34;outline-container-h6&#34; class=&#34;outline-7&#34;&gt;&#xA;&lt;h7 id=&#34;h6&#34;&gt;&#xA;H6&#xA;&lt;/h7&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-paragraph&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;paragraph&#34;&gt;&#xA;Paragraph&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-paragraph&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum,&#xA;voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate&#xA;ma dolestendit peritin re plis aut quas inctum laceat est volestemque&#xA;commosa as cus endigna tectur, offic to cor sequas etum rerum idem&#xA;sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus&#xA;ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique&#xA;molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem&#xA;erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea&#xA;ipsamus es exerum sitate dolores editium rerore eost, temped molorro&#xA;ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://eddieh.github.io/stix-hugo/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used
-in Hugo content files, also it shows whether basic HTML elements are
-decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used&#xA;in Hugo content files, also it shows whether basic HTML elements are&#xA;decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

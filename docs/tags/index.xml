@@ -4,126 +4,101 @@
     <title>Tags on STIX Theme</title>
     <link>https://eddieh.github.io/stix-hugo/tags/</link>
     <description>Recent content in Tags on STIX Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 07:51:20 -0800</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Thu, 27 Jan 2022 08:26:20 -0800</lastBuildDate>
+    <atom:link href="https://eddieh.github.io/stix-hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>css</title>
+      <title>Index</title>
+      <link>https://eddieh.github.io/stix-hugo/tags/index/</link>
+      <pubDate>Thu, 27 Jan 2022 08:26:20 -0800</pubDate>
+      <guid>https://eddieh.github.io/stix-hugo/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
       <link>https://eddieh.github.io/stix-hugo/tags/css/</link>
       <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/css/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>html</title>
+      <title>Html</title>
       <link>https://eddieh.github.io/stix-hugo/tags/html/</link>
       <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/html/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>org</title>
+      <title>Org</title>
       <link>https://eddieh.github.io/stix-hugo/tags/org/</link>
       <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/org/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>themes</title>
+      <title>Themes</title>
       <link>https://eddieh.github.io/stix-hugo/tags/themes/</link>
       <pubDate>Wed, 01 Jan 2020 07:51:20 -0800</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/themes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>markdown</title>
+      <title>Markdown</title>
       <link>https://eddieh.github.io/stix-hugo/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/markdown/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>privacy</title>
+      <title>Privacy</title>
       <link>https://eddieh.github.io/stix-hugo/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/privacy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>shortcodes</title>
+      <title>Shortcodes</title>
       <link>https://eddieh.github.io/stix-hugo/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/shortcodes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>text</title>
+      <title>Text</title>
       <link>https://eddieh.github.io/stix-hugo/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/text/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>KaTeX</title>
       <link>https://eddieh.github.io/stix-hugo/tags/katex/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/katex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LaTeX</title>
       <link>https://eddieh.github.io/stix-hugo/tags/latex/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/latex/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>math</title>
+      <title>Math</title>
       <link>https://eddieh.github.io/stix-hugo/tags/math/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/math/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>emoji</title>
+      <title>Emoji</title>
       <link>https://eddieh.github.io/stix-hugo/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/tags/emoji/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://eddieh.github.io/stix-hugo/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eddieh.github.io/stix-hugo/tags/index/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

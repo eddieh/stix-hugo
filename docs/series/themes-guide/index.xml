@@ -4,20 +4,17 @@
     <title>Themes Guide on STIX Theme</title>
     <link>https://eddieh.github.io/stix-hugo/series/themes-guide/</link>
     <description>Recent content in Themes Guide on STIX Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/series/themes-guide/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eddieh.github.io/stix-hugo/series/themes-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://eddieh.github.io/stix-hugo/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used
-in Hugo content files, also it shows whether basic HTML elements are
-decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used&#xA;in Hugo content files, also it shows whether basic HTML elements are&#xA;decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

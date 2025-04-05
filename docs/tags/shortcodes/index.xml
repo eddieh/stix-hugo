@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shortcodes on STIX Theme</title>
+    <title>Shortcodes on STIX Theme</title>
     <link>https://eddieh.github.io/stix-hugo/tags/shortcodes/</link>
-    <description>Recent content in shortcodes on STIX Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Shortcodes on STIX Theme</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eddieh.github.io/stix-hugo/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eddieh.github.io/stix-hugo/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich Content</title>
       <link>https://eddieh.github.io/stix-hugo/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in
-Shortcodes&lt;/a&gt;
-for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy
-Config&lt;/a&gt; and a set of Simple
-Shortcodes that enable static and no-JS versions of various social
-media embeds.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/shortcodes/&#34;&gt;Built-in&#xA;Shortcodes&lt;/a&gt; for rich content, along&#xA;with a &lt;a href=&#34;https://gohugo.io/configuration/privacy/&#34;&gt;Privacy Config&lt;/a&gt; and&#xA;a set of Simple Shortcodes that enable static and no-JS versions of&#xA;various social media embeds.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

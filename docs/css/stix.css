@@ -39,6 +39,7 @@
     --heading-fonts: Helvetica, Arial, sans-serif;
     --body-fonts: STIXTwoText, STIXGeneral, "Times New Roman", serif;
     --mono-fonts: DejaVuSansMono, "DejaVu Sans Mono", Menlo, "Lucida Console", Monaco, monospace;
+    --bg: #f7f7f7;
 }
 
 * {
@@ -57,7 +58,7 @@ body {
     font-family: var(--body-fonts);
     font-size: 120%;
     color: #313131;
-    background-color: #f7f7f7;
+    background-color: var(--bg);
     /* -webkit-text-size-adjust: 100%; */
     /* -ms-text-size-adjust: 100%; */
     /* text-size-adjust: 100%; */
@@ -190,14 +191,33 @@ pre.example {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+    padding: 0 1em 0 1em;
+    margin: 0 0 0 3.5rem;
+    color: #7a7a7a;
+    border-left: .25rem solid #7b7b7b;
+}
+blockquote p {
+    margin: 0 0 1em;
+    padding: 0;
 }
 blockquote p:last-child {
-  margin: 0;
+    margin: 0;
 }
+blockquote::before {
+    content: "“";
+    position: absolute;
+    left: 0;
+    font-size: 5em;
+    padding-left: 1rem;
+    line-height: .95;
+    color: #ddd;
+}
+
+.attribution {
+    text-align: end;
+    color: #555;
+}
+
 
 img {
   display: block;
@@ -270,11 +290,10 @@ caption, figcaption {
     margin-bottom: 4rem;
 }
 .masthead-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-top: 0;
-    margin-bottom: 0;
     color: #dadada;
-    display: inline;
+    display: inline-block;
 }
 .masthead-title a {
     color: #dadada;
@@ -287,9 +306,13 @@ caption, figcaption {
     letter-spacing: 0;
 }
 .masthead .nav {
-    display: block;
+    display: inline-block;
     float: right;
     height: auto;
+}
+
+.post {
+    margin-bottom: 1.5em;
 }
 
 .post-header { margin-bottom: 3.5rem; }
@@ -306,13 +329,27 @@ caption, figcaption {
     color: #8080a0;
 }
 .post-metadata { margin-top: 1.75rem; }
-.post-date { color: #9a9a9a; }
+.post-date {
+    color: #9a9a9a;
+    font-style: italic;
+}
 
 .posts .post-title { font-size: 1.5rem }
 .posts .post-date { font-size: .85rem; }
 
 .page-type {
     display: none;
+}
+.page-status {
+    font-family: var(--heading-fonts);
+    font-size: .8rem;
+    font-weight: bold;
+    padding: .2rem;
+    background-color: #ffe484;
+    color: #555;
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 1px rgba(33, 37, 41, 0.15),
+                0 0.25rem 1.5rem rgba(255, 255, 255, 0.75);
 }
 
 .lastmod {

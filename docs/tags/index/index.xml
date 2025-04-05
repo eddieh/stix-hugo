@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on STIX Theme</title>
+    <title>Index on STIX Theme</title>
     <link>https://eddieh.github.io/stix-hugo/tags/index/</link>
-    <description>Recent content in index on STIX Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Index on STIX Theme</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2020 Eddie Hillenbrand</copyright><atom:link href="https://eddieh.github.io/stix-hugo/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025 Eddie Hillenbrand</copyright>
+    <lastBuildDate>Thu, 27 Jan 2022 08:26:20 -0800</lastBuildDate>
+    <atom:link href="https://eddieh.github.io/stix-hugo/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>https://eddieh.github.io/stix-hugo/post/</link>
       <pubDate>Thu, 27 Jan 2022 08:26:20 -0800</pubDate>
-      
       <guid>https://eddieh.github.io/stix-hugo/post/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
