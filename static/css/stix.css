@@ -191,14 +191,33 @@ pre.example {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+    padding: 0 1em 0 1em;
+    margin: 0 0 0 3.5rem;
+    color: #7a7a7a;
+    border-left: .25rem solid #7b7b7b;
+}
+blockquote p {
+    margin: 0 0 1em;
+    padding: 0;
 }
 blockquote p:last-child {
-  margin: 0;
+    margin: 0;
 }
+blockquote::before {
+    content: "“";
+    position: absolute;
+    left: 0;
+    font-size: 5em;
+    padding-left: 1rem;
+    line-height: .95;
+    color: #ddd;
+}
+
+.attribution {
+    text-align: end;
+    color: #555;
+}
+
 
 img {
   display: block;
@@ -271,11 +290,10 @@ caption, figcaption {
     margin-bottom: 4rem;
 }
 .masthead-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-top: 0;
-    margin-bottom: 0;
     color: #dadada;
-    display: inline;
+    display: inline-block;
 }
 .masthead-title a {
     color: #dadada;
@@ -288,9 +306,13 @@ caption, figcaption {
     letter-spacing: 0;
 }
 .masthead .nav {
-    display: block;
+    display: inline-block;
     float: right;
     height: auto;
+}
+
+.post {
+    margin-bottom: 1.5em;
 }
 
 .post-header { margin-bottom: 3.5rem; }
@@ -307,7 +329,10 @@ caption, figcaption {
     color: #8080a0;
 }
 .post-metadata { margin-top: 1.75rem; }
-.post-date { color: #9a9a9a; }
+.post-date {
+    color: #9a9a9a;
+    font-style: italic;
+}
 
 .posts .post-title { font-size: 1.5rem }
 .posts .post-date { font-size: .85rem; }
