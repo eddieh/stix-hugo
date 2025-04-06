@@ -205,7 +205,9 @@ free to every scientist, student, and other interested party
 worldwide. The fonts would be consistent with the emerging Unicode
 standard, and would permit universal representation of every
 character. With the release of the STIX fonts, de Ruiter&amp;#39;s vision has
-been realized. — STIX 1.1.0 STIXGeneral.otf&lt;/p&gt;
+been realized.&lt;/p&gt;
+&lt;p&gt;
+ &lt;span class=&#34;attribution&#34;&gt;&amp;mdash; STIX 1.1.0 STIXGeneral.otf&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
 The description of the STIX Font embeded in the v2.x font files is as
@@ -217,8 +219,36 @@ printers, and others working in the scientific, medical, and technical
 fields. They combine a comprehensive Unicode-based collection of
 mathematical symbols and alphabets with a set of text faces suitable
 for professional publishing. The fonts are available royalty-free
-under the SIL Open Font License. — STIX 2.13 b170
-STIXTwoText-Regular.otf&lt;/p&gt;
+under the SIL Open Font License.&lt;/p&gt;
+&lt;p&gt;
+ &lt;span class=&#34;attribution&#34;&gt;&amp;mdash; STIX 2.13 b170 STIXTwoText-Regular.otf&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-14&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-14&#34;&gt;
+More on DejaVu Sans Mono
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-14&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+The lede paragraph from the DejaVu fonts webpage follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The DejaVu fonts are a font family based on the Vera Fonts. Its
+purpose is to provide a wider range of characters while maintaining
+the original look and feel through the process of collaborative
+development (see authors), under a Free license.&lt;/p&gt;
+&lt;p&gt;
+ &lt;span class=&#34;attribution&#34;&gt;&amp;mdash; https://dejavu-fonts.github.io&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+A quote from &lt;a href=&#34;https://en.wikipedia.org/wiki/DejaVu_fonts#DejaVu_Sans_Mono&#34;&gt;Wikipedia&lt;/a&gt; follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The DejaVu Sans Mono typeface in particular is suitable for technical
+contexts, since it clearly distinguishes &amp;#34;l&amp;#34; (lowercase L) from &amp;#34;1&amp;#34;
+(one) and from &amp;#34;I&amp;#34; (uppercase i); also it clearly distinguishes &amp;#34;0&amp;#34;
+(zero, null) from &amp;#34;O&amp;#34; (uppercase o).&lt;/p&gt;
+&lt;p&gt;
+ &lt;span class=&#34;attribution&#34;&gt;&amp;mdash; Wikipedia&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;/div&gt;
