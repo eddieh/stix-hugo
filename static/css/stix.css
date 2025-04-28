@@ -370,6 +370,7 @@ caption, figcaption {
 .footnote-body {
     display: inline-table;
     margin-left: 1em;
+    width: 90%;
 }
 .footnote-body p {}
 
