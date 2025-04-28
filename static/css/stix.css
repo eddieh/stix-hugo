@@ -355,6 +355,24 @@ caption, figcaption {
                 0 0.25rem 1.5rem rgba(255, 255, 255, 0.75);
 }
 
+.footnotes {}
+.footnotes-separatator {}
+.footnote-definitions {}
+.footnote-definition {
+    display: list-item;
+    list-style-type: none;
+}
+.footnote-definition sup {
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footnote-body {
+    display: inline-table;
+    margin-left: 1em;
+}
+.footnote-body p {}
+
 .lastmod {
     font-size: .85rem;
     font-style: italic;
